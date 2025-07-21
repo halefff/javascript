@@ -1,0 +1,36 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            //"use strict metodunu her sayfanın başına yazmakta fayda varmış çünkü yeni nesil js kodlarını destekliyor ve olası yanlış bi yazımda hata veriyor."
+            "use strict"
+            let name=prompt("ismin nedir?","");
+            alert(name);
+
+
+
+            
+
+            let yas=prompt("yaşınız kaç?", "");
+            let mesaj=(yas<5) ? "ne tatlı şeysin": 
+            (yas<18) ? "yaşın yetmiyor" : 
+            "girebilirsin";
+            alert(mesaj);
+
+            //üstteki kodlama sistemi, alttaki if ile yapılan kodun "?" ile kullanılabilecek halidir. Aynı işlevi görür.
+
+//             if (yas < 3) {
+//             mesaj = 'Ne tatlı şeysin sen öyle!';
+//             } else if (yas < 18) {
+//             mesaj = 'Merhaba!';
+//             } else if (yas < 100) {
+//             mesaj = 'Merhaba efendim!';
+//             } else {
+//             mesaj = 'Ne garip bir yaşın var!';
+//             }
+
+        </script>
+    </body>
+</html>
