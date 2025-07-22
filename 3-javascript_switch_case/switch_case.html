@@ -1,0 +1,41 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <script>
+            let a=1;
+
+            switch(a){
+                case 1:
+                    alert("doğru");
+                    break;
+
+                case 2:
+                    alert("yanlış");
+                    break;
+            }//bu uygulamada 1'eşit olan a değerini tanımladık ve switch case ile doğruluğunu kontrol ettik.
+
+
+
+            let gun=prompt("Hangi Günü Sorgulamak İstersiniz", "");
+            switch(gun){
+                case "pazartesi":
+                case "salı":
+                case "çarşamba":
+                case "perşembe":
+                case "cuma":
+                    alert("Hafta içindesiniz...");
+                    break;
+                
+                case "cumartesi":
+                case "pazar":
+                    alert("hafta sonundasınız...");
+                    break;
+                default: alert("geçersiz gün");
+            }// bu uygulamada ise seçilen günün hafta içi mi haft sonu mu olduğunu bulan bir program var.
+
+        </script>
+    </body>
+</html>
