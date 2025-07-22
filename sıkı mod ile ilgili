@@ -1,0 +1,10 @@
+Sıkı Mod
+JavaScript’in tüm modern özelliklerini kullanabilmek için, "use strict" kullanmanız gerekmektedir.
+
+'use strict';
+...
+
+Bu talimatı dosyanın başında veya fonksiyonun başında belirtmeniz gerekmektedir.
+
+"use strict" kullanmadan da her şey çalışır. Fakat eski tipte ve uyumluluk modunda çalışır. 
+Modern davranışı seçerseniz böylece son yenilikleri uyumluluk modu olmadan da çalıştırabilirsiniz.
